@@ -13,7 +13,7 @@
 - `BUPT_USERNAME`: 你用来登录的学号；
 - `BUPT_PASSWORD`: 你用来登录的密码。
 
-最后在仓库的 Actions 中手动启用 GitHub Actions。
+最后在仓库的 Actions 中手动启用 GitHub Actions，你需要先 Enable Actions，再开启名为 `Automatically submit the 2019-nCoV report sheet of BUPT` 的 workflow。
 
 如果仓库没有活动，60天后 GitHub Actions 会自动停止，你需要手动再次开启它。
 
