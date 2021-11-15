@@ -6,12 +6,14 @@
 
 ## 使用方法
 
-首先，fork；
+首先，fork。
 
 然后，在你自己仓库的 Settings 的 Secrets 中设置以下信息：
 
 - `BUPT_USERNAME`: 你用来登录的学号；
 - `BUPT_PASSWORD`: 你用来登录的密码。
+
+最后在仓库的 Actions 中手动启用 GitHub Actions。
 
 如果仓库没有活动，60天后 GitHub Actions 会自动停止，你需要手动再次开启它。
 
